@@ -853,3 +853,7 @@ MEDIA QUERY FOR SMALL DEVICES
         display: none;
     }
 }
+
+.boogie{
+    color: red;
+}
