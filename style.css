@@ -584,7 +584,7 @@ MEDIA QUERY FOR MEDUIM DEVICES
 @media screen and (max-width: 1024px){
     /*==============================GENERAL ====================*/
     .container{
-        width: var(--container-width-md);
+        width: 80%;
     }
 
     h2{
@@ -753,6 +753,9 @@ MEDIA QUERY FOR SMALL DEVICES
 *==================================================================*/
 
 @media screen and (max-width: 600px) {
+
+    
+
     section{
         margin-top: 2rem;
     }
@@ -852,8 +855,4 @@ MEDIA QUERY FOR SMALL DEVICES
     #hide__sidebar-btn{
         display: none;
     }
-}
-
-.boogie{
-    color: red;
 }
